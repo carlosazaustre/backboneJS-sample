@@ -9,7 +9,7 @@ require.config({
     plugins: "../js/plugins",
 
     // Libraries
-    namespace: "app/namespace",
+    namespace: "../js/libs/namespace",
     jquery: "../js/libs/jquery",
     underscore: "../js/libs/underscore",
     backbone: "../js/libs/backbone",
