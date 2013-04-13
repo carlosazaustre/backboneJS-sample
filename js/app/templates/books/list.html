@@ -1,0 +1,7 @@
+<h1>Listing of Books</h1>
+
+<ul>
+	<% _.each(books, function(book){ %>
+	<li><a href="book/<%= book.id %>"><%= book.title %></a></li>
+	<% }); %>
+</ul>
